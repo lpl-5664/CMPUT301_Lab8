@@ -85,5 +85,11 @@ public class CityList {
      * @param city2
      *              the 2nd candidate city
      */
-    
+    public void addTwo(City city1, City city2) {
+        if ((hasCity(city1)) || (hasCity(city2))) {
+            throw new IllegalArgumentException();
+        }
+        cities.add(city1);
+        cities.add(city2);
+    }
 }
