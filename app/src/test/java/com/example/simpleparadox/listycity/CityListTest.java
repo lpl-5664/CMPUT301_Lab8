@@ -36,10 +36,10 @@ class CityListTest {
         assertEquals(1, cityList.countCities());
 
         cityList.addTwo(new City("Regina", "Saskatchewan"),
-                new City("Saskatoon", "Saskatchewan"));
+                new City("Calgary", "Alberta"));
 
         assertEquals(3, cityList.countCities());
         assertTrue(cityList.hasCity(new City("Regina", "Saskatchewan")));
-        assertTrue(cityList.hasCity(new City("Saskatoon", "Saskatchewan")));
+        assertTrue(cityList.hasCity(new City("Calgary", "Alberta")));
     }
 }
