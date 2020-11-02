@@ -33,7 +33,7 @@ class CityListTest {
     void testDelete() {
         CityList cityList = mockCityList();
 
-        City city = new City("Regina", "Saskatchewan");
+        City city = new City("Saskatoon", "Saskatchewan");
         cityList.add(city);
 
         assertEquals(2, cityList.getCities().size());
