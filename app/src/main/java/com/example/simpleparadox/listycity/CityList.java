@@ -77,4 +77,12 @@ public class CityList {
     public int countCities() {
         return cities.size();
     }
+
+    /**
+     * This adds 2 cities if they do not exist in the list
+     * @param city1
+     *              the 1st candidate city
+     * @param city2
+     *              the 2nd candidate city
+     */
 }
